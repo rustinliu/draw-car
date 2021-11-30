@@ -1,20 +1,23 @@
-body {
+/* body {
     background-color: #fff;
     padding: 0;
     margin: 0;
 }
-
+#textbox {
+    width: 50vw;
+}
+#textbox::-webkit-scrollbar {
+    display: none;
+}
 .container {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
     height: 500px;
     width: 450px;
-    margin: 0 auto;
-    margin-top: 140px;
     background-color: #fff;
-    /*
-   border: 2px solid #F23BD3;
-   border-radius: 100px 0 100px 00px;
-*/
+    
 }
 
 .car-top {
@@ -267,4 +270,26 @@ body {
     top: 41%;
     left: 70.2%;
     border: 2px solid white;
+} */
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+#textbox {
+    width: 50vw;
+}
+#textbox::-webkit-scrollbar {
+    display: none;
+}
+.btn {
+    z-index: 10;
+    position: fixed;
+    display: inline-flex;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn button {
+    padding: 5px;
 }
